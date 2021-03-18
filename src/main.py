@@ -9,7 +9,7 @@ from flask_swagger import swagger
 from flask_cors import CORS
 from utils import APIException, generate_sitemap
 from admin import setup_admin
-from models import db, User, Planets, People, Favorites
+from dbmodels import db, User, Planets, People, Favorites
 import datetime
 
 ## Nos permite hacer las encripciones de contraseñas
